@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>显示指定的学生</title>
+</head>
+<body>
+    {% for stu in stus %}
+        姓名：{{ stu.s_name }}
+        语文成绩：{{ stu.s_chinese }}
+        <br>
+    {% endfor %}
+</body>
+</html>
